@@ -71,7 +71,7 @@ public:
  *
  * \pre [f,l) is a valid range
  * \note *f will not move
-  * \note an earlier name was stable_adjacent_partition
+ * \note an earlier name was stable_adjacent_partition
  */
 template< typename BidirIt, typename OutIt, typename BinaryPred >
 OutIt stable_segregate( BidirIt f, BidirIt l, OutIt partition_points, BinaryPred p )
