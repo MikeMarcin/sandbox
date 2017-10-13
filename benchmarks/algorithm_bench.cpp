@@ -63,7 +63,7 @@ public:
  *
  * elements match if they compare equal using operator== or pred
  *
- * \param f, l	        	the range of elements to segregate
+ * \param f, l	            the range of elements to segregate
  * \param partition_points  an output iterator that each partition point is written to
  * \param Pred              binary predicate which returns true for matching elements
  *
